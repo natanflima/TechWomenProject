@@ -3,7 +3,7 @@ body {
     background-color: #8a71c9;
     text-align: center;
     color: #ffffff;
-    margin: 0px;
+    margin: 0px 0px 30px 0;
 }
 
 h1 {
@@ -39,8 +39,12 @@ p {
 }
 
 section {
-    max-width: 60%;
+    width: 60%;
     margin: 0 auto;
+}
+
+section section {
+    width: 100%;
 }
 
 img {
@@ -50,10 +54,38 @@ img {
 ul {
     list-style-type: none;
     line-height: 2;
+    padding-left: 0;
 }
 
 a {
     text-decoration: none;
     color: #99ffff;
     font-weight: 700;
+}
+
+.principal a {
+    color: #fff;
+    font-weight: normal;
+    text-decoration: underline;
+
+}
+
+.principal {
+    background-color: #FF6CB5;
+    height: 40px;
+    max-width: 60%;
+    margin: 0 auto;
+}
+
+.principal li {
+    display: inline-block;
+    line-height: 2.5;
+    margin: 0 89px;
+}
+
+.buttom {
+    background-color: #41f341;
+    border: solid 1px transparent;
+    padding: 2px 20px;
+    border-radius: 3px;
 }
